@@ -25,6 +25,10 @@
   text-indent: -1em;
 }
 
+.header__links-item {
+  -webkit-user-drag: none;
+}
+
 .header__links-list-item_no-bullit {
   margin-left: 0;
   padding-left: 30px;
@@ -34,10 +38,7 @@
 
 .header__list-item_no-decoration {
   text-decoration: none;
-}
-
-.header__links-list-item {
-  color: black;
+  -webkit-user-drag: none;
 }
 
 .header__logo {
@@ -69,6 +70,7 @@
 .header__contacts-item {
   color: black;
   text-decoration: underline;
+  -webkit-user-drag: none;
 }
 
 .cover {
