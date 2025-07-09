@@ -13,17 +13,17 @@
   <body>
     <header class="header">
       <nav class="header__menu">
-        <ul class="header__links-list">
-          <li class="header__links-list-item header__links-list-item_no-bullit"><a href="#cover" class="header__list-item_no-decoration">главная</a></li>
-          <li class="header__links-list-item"><a href="#lots" class="header__links-item">посмотреть лоты</a></li>
-          <li class="header__links-list-item"><a href="#about" class="header__links-item">об аукционе</a></li>
+        <ul class="header__links-list"> 
+          <li class="header__no-bullit"><a href="#cover" class="header__link_active">главная</a></li> 
+          <li class="header__bullit"><a href="#lots">посмотреть лоты</a></li>
+          <li class="header__bullit"><a href="#about">об аукционе</a></li>
         </ul>
       </nav>
       <a href="#" class="header__logo">
       <img src="./images/logo-black.svg" alt="Логотип Оно тебе надо" class="header__logo-image"></a>
-      <address class="header__contacts">
-        <a href="tel:+99995555555" class="header__contacts-item">+9 999 555 5555</a>
-        <a href="mailto:info@sobaka.ge" class="header__contacts-item">info@sobaka.ge</a>
+      <address class="address__link">
+        <a href="tel:+99995555555" class="address__link-item">+9 999 555 5555</a>
+        <a href="mailto:info@sobaka.ge" class="address__link-item">info@sobaka.ge</a>
         <p>наб. Принсенграхт 263–265, Амстердам</p>
       </address>
     </header>
@@ -36,18 +36,18 @@
             <span class="aligned-text aligned-text_right">надо</span>
           </h1>
           <div class="cover__description">
-            <p class="cover__description-text letter-spacing-extended">АУКЦИОН ВЕЩЕЙ, В КОТОРЫЕ <span class="no-letter-spacing">НИКТО</span> НЕ ВЕРИЛ</p>
+            <p class="cover__description-text letter-spacing-extended">аукцион вещей, в которые <span class="no-letter-spacing">никто</span> не верил</p>
             <button class="bet-button">Сделать ставку</button>
           </div>               
       </section>
       <section class="lots" id="lots">
-        <h1 class="lots__heading">Лоты</h1>
+        <h2 class="lots__heading">Лоты</h2>
         <ul class="lots__card-list">
           <li class="lots__card-list-item">
             <a href="#lots" class="card-link">
               <article class="card card_type_film">
                 <div class="overlay"></div>
-                <h3 class="card__title">ФИЛЬМ РЕЖИССЁРА, КОТОРЫЙ БРОСИЛ КИНОШКОЛУ</h3>
+                <h3 class="card__title">Фильм режиссёра, который бросил киношколу</h3>
                 <p class="card__text">Не просто бросил, а ушёл с первой лекции. Какой была бы ваша ставка, если бы вы не знали, что режиссёр — Пол Томас Андерсон?</p>
               </article>
             </a>
@@ -56,7 +56,7 @@
             <a href="#lots" class="card-link">
               <article class="card card_type_book">
                 <div class="overlay"></div>
-                <h3 class="card__title">КНИГА, ГДЕ ОПИСАН ОДИН СКУЧНЫЙ ДЕНЬ ИЗ ЖИЗНИ РЕКЛАМНОГО АГЕНТА</h3>
+                <h3 class="card__title">Книга, где описан один скучный день мз жмзнм рекламного агента</h3>
                 <p class="card__text">Объёмом почти в тысячу страниц. Иногда без знаков препинания и с переходами на древнеанглийский. В ней одновременно рассказывается о 16 июня 1904 года и об истории литературы, начиная с античных времён. И это всё накладывается на эпическую поэму Гомера. Сколько бы вы поставили на «Улисса» Джеймса Джойса?</p>
               </article>
             </a>
@@ -65,7 +65,7 @@
             <a href="#lots" class="card-link">
               <article class="card card_type_picture">
                 <div class="overlay"></div>
-                <h3 class="card__title">КАРТИНА, КОТОРУЮ ПОВТОРИТ ДАЖЕ 5-ЛЕТНИЙ СЫН МАМИНОЙ ПОДРУГИ</h3>
+                <h3 class="card__title">Картинка, которую повторит даже 5-летний сын маминой подруги</h3>
                 <p class="card__text">Ну действительно, там линия, тут кружочек, а здесь и вовсе что-то похожее на инфузорию-туфельку. Никаких полей, лесов, котиков... Сколько бы вы на такое поставили, если бы не знали, что это — одна из революционных работ Кандинского?</p>
               </article>
             </a>
@@ -89,9 +89,9 @@
       </section>
     </main>
     <footer class="footer">
-      <address class="address">
-        <a href="tel:+99995555555" class="address__link">+9 999 555 5555</a>
-        <a href="mailto:info@sobaka.ge" class="address__link">info@sobaka.ge</a>
+      <address class="address__link">
+        <a href="tel:+99995555555" class="address__link-item">+9 999 555 5555</a>
+        <a href="mailto:info@sobaka.ge" class="address__link-item">info@sobaka.ge</a>
         <p>наб. Принсенграхт 263–265, Амстердам</p>
       </address>
       <nav class="footer__menu">
