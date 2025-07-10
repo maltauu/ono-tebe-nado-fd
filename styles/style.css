@@ -73,12 +73,6 @@
   -webkit-user-drag: none;
 }
 
-.address__text {
-  color: black;
-  text-decoration: none;
-  white-space: normal;
-}
-
 .cover {
   position: relative;
   display: flex;
